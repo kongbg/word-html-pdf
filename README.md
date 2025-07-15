@@ -1,6 +1,7 @@
 # Word转PDF工具
 
 一个基于 Vue3 + Koa + Puppeteer 的 Word 文档转 PDF 工具，支持将 Word 文档转换为 HTML、Vue3 组件(动态填入数据)，并生成高质量 PDF。
+部署服务后，调用/api/generate/pdf接口，传入要生成pdf的前端页面url即可，前端使用案例文末有介绍。
 
 ## 🚀 项目特性
 
