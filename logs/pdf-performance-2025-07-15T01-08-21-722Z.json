@@ -1,0 +1,175 @@
+{
+  "timestamp": "2025-07-15T01:08:21.724Z",
+  "report": {
+    "totalTime": 1898,
+    "stages": {
+      "PDF_Start": {
+        "time": 0,
+        "percentage": "0.00",
+        "description": "开始生成PDF: http://localhost:4320/print?id=test"
+      },
+      "Task_Start": {
+        "time": 414,
+        "percentage": "21.81",
+        "description": "任务开始执行"
+      },
+      "Navigation_Start": {
+        "time": 1,
+        "percentage": "0.05",
+        "description": "导航到URL: http://localhost:4320/print?id=test"
+      },
+      "Navigation_Complete": {
+        "time": 832,
+        "percentage": "43.84",
+        "description": "页面导航完成"
+      },
+      "Complexity_Analysis": {
+        "time": 1,
+        "percentage": "0.05",
+        "description": "分析页面复杂度"
+      },
+      "Complexity_Analysis_Complete": {
+        "time": 42,
+        "percentage": "2.21",
+        "description": "页面复杂度: low"
+      },
+      "Smart_Wait_Start": {
+        "time": 0,
+        "percentage": "0.00",
+        "description": "开始智能等待"
+      },
+      "Smart_Wait_Complete": {
+        "time": 275,
+        "percentage": "14.49",
+        "description": "智能等待完成"
+      },
+      "PDF_Generation_Start": {
+        "time": 0,
+        "percentage": "0.00",
+        "description": "开始生成PDF"
+      },
+      "PDF_Generation_Complete": {
+        "time": 332,
+        "percentage": "17.49",
+        "description": "PDF生成完成"
+      },
+      "Buffer_Conversion_Start": {
+        "time": 0,
+        "percentage": "0.00",
+        "description": "开始转换为Buffer"
+      },
+      "Buffer_Conversion_Complete": {
+        "time": 0,
+        "percentage": "0.00",
+        "description": "Buffer转换完成，大小: 92881 bytes"
+      },
+      "Task_Complete": {
+        "time": 1,
+        "percentage": "0.05",
+        "description": "任务执行完成"
+      }
+    },
+    "slowestStage": {
+      "stage": "Navigation_Complete",
+      "time": 832,
+      "percentage": "43.84",
+      "description": "页面导航完成"
+    },
+    "logCount": 13,
+    "startTime": "2025-07-15T01:08:19.817Z",
+    "endTime": "2025-07-15T01:08:21.715Z"
+  },
+  "logs": [
+    {
+      "stage": "PDF_Start",
+      "description": "开始生成PDF: http://localhost:4320/print?id=test",
+      "timestamp": 1752541699817,
+      "elapsed": 0,
+      "time": "2025-07-15T01:08:19.817Z"
+    },
+    {
+      "stage": "Task_Start",
+      "description": "任务开始执行",
+      "timestamp": 1752541700231,
+      "elapsed": 414,
+      "time": "2025-07-15T01:08:20.231Z"
+    },
+    {
+      "stage": "Navigation_Start",
+      "description": "导航到URL: http://localhost:4320/print?id=test",
+      "timestamp": 1752541700232,
+      "elapsed": 415,
+      "time": "2025-07-15T01:08:20.232Z"
+    },
+    {
+      "stage": "Navigation_Complete",
+      "description": "页面导航完成",
+      "timestamp": 1752541701064,
+      "elapsed": 1247,
+      "time": "2025-07-15T01:08:21.064Z"
+    },
+    {
+      "stage": "Complexity_Analysis",
+      "description": "分析页面复杂度",
+      "timestamp": 1752541701065,
+      "elapsed": 1248,
+      "time": "2025-07-15T01:08:21.065Z"
+    },
+    {
+      "stage": "Complexity_Analysis_Complete",
+      "description": "页面复杂度: low",
+      "timestamp": 1752541701107,
+      "elapsed": 1290,
+      "time": "2025-07-15T01:08:21.107Z"
+    },
+    {
+      "stage": "Smart_Wait_Start",
+      "description": "开始智能等待",
+      "timestamp": 1752541701107,
+      "elapsed": 1290,
+      "time": "2025-07-15T01:08:21.107Z"
+    },
+    {
+      "stage": "Smart_Wait_Complete",
+      "description": "智能等待完成",
+      "timestamp": 1752541701382,
+      "elapsed": 1565,
+      "time": "2025-07-15T01:08:21.382Z"
+    },
+    {
+      "stage": "PDF_Generation_Start",
+      "description": "开始生成PDF",
+      "timestamp": 1752541701382,
+      "elapsed": 1565,
+      "time": "2025-07-15T01:08:21.382Z"
+    },
+    {
+      "stage": "PDF_Generation_Complete",
+      "description": "PDF生成完成",
+      "timestamp": 1752541701714,
+      "elapsed": 1897,
+      "time": "2025-07-15T01:08:21.714Z"
+    },
+    {
+      "stage": "Buffer_Conversion_Start",
+      "description": "开始转换为Buffer",
+      "timestamp": 1752541701714,
+      "elapsed": 1897,
+      "time": "2025-07-15T01:08:21.714Z"
+    },
+    {
+      "stage": "Buffer_Conversion_Complete",
+      "description": "Buffer转换完成，大小: 92881 bytes",
+      "timestamp": 1752541701714,
+      "elapsed": 1897,
+      "time": "2025-07-15T01:08:21.714Z"
+    },
+    {
+      "stage": "Task_Complete",
+      "description": "任务执行完成",
+      "timestamp": 1752541701715,
+      "elapsed": 1898,
+      "time": "2025-07-15T01:08:21.715Z"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+/* 打印样式优化 - 专门处理表格边框问题 */
+
+@media print {
+  /* 基础打印设置 */
+  /* * {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  } */
+
+  /* 表格边框优化 */
+  table {
+    border-collapse: collapse !important;
+    /* border-spacing: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    page-break-inside: avoid !important;
+    margin: 0 !important;
+    padding: 0 !important; */
+  }
+
+  /* 表格边框统一设置 */
+  table,
+  th,
+  td {
+    border: 1px solid #000 !important;
+    /* border-width: 1px !important; */
+    padding: 4px 8px !important;
+    border-collapse: collapse !important;
+  }
+
+  /* 表头样式 */
+  /* th {
+    font-weight: bold !important;
+    text-align: left !important;
+    vertical-align: top !important;
+  } */
+
+  /* 单元格内容 */
+  /* td {
+    text-align: left !important;
+    vertical-align: top !important;
+  } */
+
+  /* 确保表格不会分页断开 */
+  tr {
+    page-break-inside: avoid !important;
+    page-break-after: auto !important;
+  }
+
+  /* 移除阴影和特效 */
+  /* * {
+    box-shadow: none !important;
+    text-shadow: none !important;
+    filter: none !important;
+  } */
+
+  /* 字体和文字优化 */
+  /* table {
+    font-size: 12px !important;
+    line-height: 1.2 !important;
+    font-family: Arial, sans-serif !important;
+  } */
+
+  /* 表格容器优化 */
+  /* .docx table,
+  .docx-wrapper table,
+  [class*="docx"] table {
+    border: 1px solid #000 !important;
+    border-collapse: collapse !important;
+  } */
+
+  /* .docx th,
+  .docx td,
+  .docx-wrapper th,
+  .docx-wrapper td,
+  [class*="docx"] th,
+  [class*="docx"] td {
+    border: 1px solid #000 !important;
+    border-width: 1px !important;
+  } */
+}
+
+/* 屏幕预览时的表格样式（用于对比） */
+@media screen {
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  table, th, td {
+    border: 1px solid #000;
+  }
+
+  th {
+    font-weight: bold;
+  }
+} 

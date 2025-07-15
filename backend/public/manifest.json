@@ -1,0 +1,95 @@
+{
+  "../node_modules/.pnpm/docx-preview@0.1.22/node_modules/docx-preview/dist/docx-preview.min.mjs": {
+    "file": "static/docx-preview.min-ec3ce43d.js",
+    "isDynamicEntry": true,
+    "src": "../node_modules/.pnpm/docx-preview@0.1.22/node_modules/docx-preview/dist/docx-preview.min.mjs"
+  },
+  "_axios-917b1704.js": {
+    "file": "static/axios-917b1704.js"
+  },
+  "index.css": {
+    "file": "static/index-8854e78e.css",
+    "src": "index.css"
+  },
+  "index.html": {
+    "css": [
+      "static/index-8854e78e.css"
+    ],
+    "dynamicImports": [
+      "src/views/home/index.vue",
+      "src/views/preview/index.vue",
+      "src/views/print/index.vue",
+      "src/components/NotFound.vue",
+      "src/views/preview/index.vue",
+      "src/views/print/index.vue"
+    ],
+    "file": "static/index-c0ece4a2.js",
+    "isEntry": true,
+    "src": "index.html"
+  },
+  "src/components/NotFound.css": {
+    "file": "static/NotFound-d4dbb28d.css",
+    "src": "src/components/NotFound.css"
+  },
+  "src/components/NotFound.vue": {
+    "css": [
+      "static/NotFound-d4dbb28d.css"
+    ],
+    "file": "static/NotFound-3f6d75b1.js",
+    "imports": [
+      "index.html"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/components/NotFound.vue"
+  },
+  "src/views/home/index.css": {
+    "file": "static/index-6e06fb6a.css",
+    "src": "src/views/home/index.css"
+  },
+  "src/views/home/index.vue": {
+    "css": [
+      "static/index-6e06fb6a.css"
+    ],
+    "file": "static/index-c998ac61.js",
+    "imports": [
+      "index.html"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/views/home/index.vue"
+  },
+  "src/views/preview/index.css": {
+    "file": "static/index-1bdfa33b.css",
+    "src": "src/views/preview/index.css"
+  },
+  "src/views/preview/index.vue": {
+    "css": [
+      "static/index-1bdfa33b.css"
+    ],
+    "dynamicImports": [
+      "../node_modules/.pnpm/docx-preview@0.1.22/node_modules/docx-preview/dist/docx-preview.min.mjs"
+    ],
+    "file": "static/index-794eeef8.js",
+    "imports": [
+      "index.html",
+      "_axios-917b1704.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/views/preview/index.vue"
+  },
+  "src/views/print/index.css": {
+    "file": "static/index-6194b009.css",
+    "src": "src/views/print/index.css"
+  },
+  "src/views/print/index.vue": {
+    "css": [
+      "static/index-6194b009.css"
+    ],
+    "file": "static/index-7f51cc9c.js",
+    "imports": [
+      "index.html",
+      "_axios-917b1704.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/views/print/index.vue"
+  }
+}

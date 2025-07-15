@@ -1,0 +1,41 @@
+{
+  "name": "pan-serve",
+  "version": "1.0.0",
+  "description": "Koa backend for pan-serve application",
+  "type": "module",
+  "private":"true",
+  "scripts": {
+    "dev": "pnpm --filter \"frontend\" dev",
+    "start": "NODE_ENV=production NODE_LOCAL=local node app.js",
+    "start:pm2": "pm2 start ecosystem.config.js --env production --local docker",
+    "build": "NODE_ENV=production NODE_LOCAL=local node build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "async-mutex": "^0.5.0",
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0-rc.12",
+    "crypto": "^1.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "koa": "^2.14.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^12.0.1",
+    "koa-static": "^5.0.0",
+    "mysql2": "^3.14.1",
+    "node-fetch": "^3.3.2",
+    "node-schedule": "^2.1.1",
+    "node-xlsx": "^0.24.0",
+    "pm2": "^5.3.1",
+    "puppeteer-core": "^24.10.0",
+    "sequelize": "^6.37.7",
+    "svg-captcha": "^1.4.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^4.1.1",
+    "nodemon": "^2.0.21"
+  }
+}

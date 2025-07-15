@@ -1,0 +1,18 @@
+{
+  "name": "word-pdf",
+  "version": "1.0.0",
+  "description": "",
+  "private":"true",
+  "scripts": {
+    "dev": "pnpm run -C frontend dev",
+    "start": "pnpm run -C backend start",
+    "build": "pnpm run -C frontend build",
+    "build:start": "pnpm run -C frontend build && pnpm run -C backend start",
+    "build:dist": "node backend/build.js",
+    "build:docker": "pnpm run -C frontend build && cd backend && docker build -t word-html-pdf:1.0.0 .",
+    "clean": "rm -rf frontend/dist backend/public/* backend/dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
